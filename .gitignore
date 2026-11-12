@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv
+
+# Datos de la empresa eléctrica: privados, incluyen coordenadas de activos
+datasets/
+
+# Salidas generadas (las predicciones llevan coordenadas)
+resultados/
+*.csv
+*.xlsx
+*.joblib
+
+# Material de trabajo que no se publica
+v1/
+v2/
+*.ipynb
+*.pdf
